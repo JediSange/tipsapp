@@ -1,4 +1,4 @@
-# Requirements
+# Tips API Specs
 Create a node.js application that uses MongoDB to store model data.  The app has one REST endpoint - tips.  This endpoint should handle:
 
 - GET /tips/
