@@ -39,3 +39,4 @@ I used Postman to test the API.  Specifically the [Chrome packaged app](https://
 - Chose not to use Mongo's _id, instead went for tip_id
 - "use strict", should consider taking out for deployment
 - The foreach in POST for /tips is naive, and more consideration should probably be had for partial updates?  or batch-saving only if error-free run through
+- I am particularly happy with the "createOrFetch" static method on the Tip model.  It uses Node's paradigm of callbacks and error handling in a very fun way.
