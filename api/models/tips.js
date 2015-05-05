@@ -45,4 +45,5 @@ tipSchema.statics.createOrFetch = function(data, callback) {
   });
 }
 
-module.exports = mongoose.model('Tip', tipSchema);
+var Tip = mongoose.model('Tip', tipSchema);
+module.exports = Tip;
