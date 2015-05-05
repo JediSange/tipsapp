@@ -1,21 +1,19 @@
 # Requirements
-Create a node.js application that uses MongoDB to store model data.
+Create a node.js application that uses MongoDB to store model data.  The app has one REST endpoint - tips.  This endpoint should handle:
 
-The app has one REST endpoint - tips.  This endpoint should handle:
-
-GET /tips/
-GET /tips/<id>
-POST /tips/
-PUT /tips/<id>
-DELETE /tips/<id>
+- GET /tips/
+- GET /tips/<id>
+- POST /tips/
+- PUT /tips/<id>
+- DELETE /tips/<id>
 
 A ‘tip’ shall consist of:
-id (unique)
-Timestamp when tip was created
-Timestamp of last tip update
-Message
-Original message (first message submitted for a tip)
-Username of submitter
+- id (unique)
+- Timestamp when tip was created
+- Timestamp of last tip update
+- Message
+- Original message (first message submitted for a tip)
+- Username of submitter
 
 GET methods should implement a reasonable HTTP caching scheme.
 
